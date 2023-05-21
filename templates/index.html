@@ -41,45 +41,81 @@
 
 <head>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
-    
+
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/1page.css') }}">
+
     <title>Document</title>
 </head>
 
 <body>
-    <div class="v4_94"><span class="v4_108">How it work</span><span class="v4_109">Try for free</span>
-        <div class="v4_110">
-            <div class="v4_111"></div><span class="v4_112">Sign Up</span>
-        </div>
-        <div class="v4_113">
-            <div class="v4_114"></div><span class="v4_115">Sign In</span>
-        </div>
-        <div class="v4_117"></div>
-        <div class="v6_177"></div>
-        <div class="v9_303"></div>
+
+    <form method="POST" action="/index">
+        <span class="v5_25">How it work</span><span class="v5_26 interactive-link"><a class="interactive-link"
+                href="{{ url_for('index') }}">Try for free</a> </span><span class="v5_266 interactive-link"><a
+                class="interactive-link" href="{{ url_for('main') }}">About</a> </span>
+        <div class="v6_178 rotate-image"></div>
+
         <div class="v6_180">
             <div class="v6_168"></div>
             <div class="v6_101"></div>
             <div class="v6_165"></div>
             <div class="v6_166"></div>
-            <div class="v6_167"></div><span class="v4_148"><textarea id="research_text" name="research_text" rows="20" cols="63">Add your recerch</textarea> </span>
-                     
-            
+            <div class="v6_167"></div><span class="v4_148"><textarea id="research_text" name="research_text" rows="20"
+                    cols="63" placeholder="Add your research"></textarea> </span>
+
             <span class="v4_149">Add link*
             </span><span class="v6_104">Add Authors*</span><span class="v6_106">Add Journal Name*</span><span
                 class="v4_151">Additional info</span>
-            <div class="v4_128"></div>
-            <div class="v6_176"><span class="v4_154">+</span><span class="v4_152">Add your picture</span>
+            <input type="file" id="fileInput" style="display: none;">
+            <div class="v4_128" onclick="selectImage()"></div>
+
+            <div class="v6_176"><span class="v4_154">+</span><span class="v4_152">Add your picture</span></span>
                 <div class="v4_153"></div>
             </div>
             <div class="v4_179">
-                <div class="v4_180"><button type="submit" value="Generate Post" class="v4_181">Сontinue</button></div>
-                <!--input class="v4_181" type="submit" value="Generate Post"-->
-                
+                <select name="social_media">
+                    <option id="twitter" name="social_media" value="twitter">Twitter</option>
+                    <option id="linkedin" name="social_media" value="linkedin">LinkedIn</option>
+                    <option id="instagram" name="social_media" value="instagram">Instagram</option>
+                </select>
+                <!--div class="v4_180"></div><span class="v4_181">Сontinue</span-->
+                <div class="v4_180" >
+                    <button type="submit" value="Generate Post">Continue</button>
+                </div>
             </div>
             <div class="name"></div>
         </div>
+
+    </form>
+    <br>
+   
+
+    <div>
+        {% if linkedin_post %}
+            <h3>LinkedIn Post:</h3>
+            <p>{{ linkedin_post }}</p>
+        {% endif %}
     </div>
+    
+    <div>
+        {% if instagram_post %}
+            <h3>Instagram Post:</h3>
+            <p>{{ instagram_post }}</p>
+        {% endif %}
+    </div>
+    
+    <div>
+        {% if twitter_post %}
+            <h3>Twitter Post:</h3>
+            <p>{{ twitter_post }}</p>
+        {% endif %}
+    </div>
+    <script>
+        function selectImage() {
+            document.getElementById('fileInput').click();
+        }
+    </script>
 </body>
 
 </html>

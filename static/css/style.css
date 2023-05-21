@@ -26,6 +26,14 @@
     opacity: 1;
     text-align: left;
   }
+  textarea:focus {
+    outline: none;
+}
+
+.v4_180:hover {
+  background-color: #ad5a5a;
+  color: #333;
+}
   .v4_109 {
     width: 100px;
     color: rgba(21,86,154,1);

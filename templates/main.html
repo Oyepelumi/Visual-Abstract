@@ -1,13 +1,70 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Social Media Post Generator - Main</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/1page.css') }}">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.svg') }}">
 </head>
+
 <body>
-    <h1>Welcome to the Social Media Post Generator</h1>
-    <p>Click the button below to get started:</p>
-    <a href="{{ url_for('index') }}">Start Generating Posts</a>    
+    <div class="v5_11"><span class="v5_23 fade-in">We help to make your research more efficient</span><span class="v5_24">
+            Visual Abstracts on social
+            media can increase your article view up to threefold.</span>
+
+        <span class="v5_25">How it work</span><span class="v5_26 interactive-link"><a class="interactive-link" href="{{ url_for('index') }}">Try for free</a> </span><span class="v5_266 interactive-link"><a class="interactive-link" href="{{ url_for('main') }}">About</a> </span>
+
+        <div class="v5_34"></div>
+        <div class="v5_42">
+            <div class="v5_35 fade-in-left"></div>
+            <div class="v5_37 fade-in-left"></div>
+            <div class="v5_36 fade-in-left"></div>
+        </div>
+        <div class="v5_40 slide-in-bottom">
+            <div class="v5_14"></div><span class="v5_16">Soon on Google Play</span>
+            <div class="v5_22"></div>
+        </div>
+        <div class="v5_41 slide-in-bottom">
+            <div class="v5_13"></div><span class="v5_15">Soon on the App Store</span>
+            <div class="v5_19">
+
+            </div>
+        </div>
+        <div class="v6_178 rotate-image"></div>
+    </div>
+
+    <footer>
+        <!-- Contact information -->
+        <p>Contact: email@example.com | Phone: +123456789</p>
+        
+        <!-- Links to social media profiles -->
+        <p>
+          <a href="https://www.facebook.com/yourpage">Facebook</a>
+          <a href="https://twitter.com/yourpage">Twitter</a>
+          <a href="https://instagram.com/yourpage">Instagram</a>
+        </p>
+        
+        <!-- Company information -->
+        <p>Our company has been providing quality services since 20XX.</p>
+        
+        <!-- Links to important pages -->
+        <p>
+          <a href="about.html">About Us</a>
+          <a href="contacts.html">Contacts</a>
+          <a href="services.html">Services</a>
+        </p>
+        
+        <!-- Subscription form -->
+        <form action="subscribe.php" method="post">
+          <input type="email" name="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+        
+        <!-- Additional information -->
+        <p>&copy; 2023 All rights reserved | <a href="privacy.html">Privacy Policy</a></p>
+      </footer>
+    
 </body>
+
 </html>
-
-

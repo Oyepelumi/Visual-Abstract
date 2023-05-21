@@ -1,0 +1,500 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v5_11 {
+  width: 100%;
+  height: 832px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v5_23 {
+  width: 456px; 
+  position: absolute;
+  top: 262px;
+  left: 662px;
+  opacity: 1;
+  text-align: left;
+  color: #15569A;
+  font-family: "Montserrat";
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.v5_24 {
+  width: 456px;
+  color: url(/static/css/images/v5_23.png);
+  position: absolute;
+  top: 354px;
+  left: 662px;
+  opacity: 1;
+  text-align: left;
+  /* color: #15569A; */
+  font-family: "Montserrat";
+  font-size: 28px;
+
+}
+.v5_25 {
+  width: 98px;
+  color: rgba(21,86,154,1);
+  position: absolute;
+  top: 51px;
+  left: 702px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v5_26 {
+  width: 100px;
+  color: rgba(21,86,154,1);
+  position: absolute;
+  top: 51px;
+  left: 840px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v5_266 {
+  width: 100px;
+  color: rgba(21,86,154,1);
+  position: absolute;
+  top: 51px;
+  left: 972px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v5_27 {
+  width: 121px;
+  height: 43px;
+  background: url("/static/css/images/v5_27.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 1113px;
+  box-shadow: 0px 4px 4px rgba(1, 1, 1, 1);
+  overflow: hidden;
+}
+.v5_28 {
+  width: 121px;
+  height: 43px;
+  background: rgba(235,70,105,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.v5_29 {
+  width: 68px;
+  color: rgba(245,245,245,1);
+  position: absolute;
+  top: 8px;
+  left: 26px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+}
+.v5_30 {
+  width: 121px;
+  height: 43px;
+  background: url("/static/css/images/v5_30.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 966px;
+  overflow: hidden;
+}
+.v5_31 {
+  width: 121px;
+  height: 43px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(235,70,105,1);
+}
+.v5_32 {
+  width: 68px;
+  color: rgba(235,70,105,1);
+  position: absolute;
+  top: 8px;
+  left: 26px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+}
+.v5_34 {
+  width: 100%;
+  height: 811px;
+  background: url("/static/css/images/v5_34.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 869px;
+  left: 840px;
+  overflow: hidden;
+}
+.v5_42 {
+  width: 475px;
+  height: 439px;
+  background: url("/static/css/images/v5_42.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 227px;
+  left: 14px;
+  overflow: hidden;
+}
+.v5_35 {
+  width: 225px;
+  height: 415px;
+  background: url("/static/css/images/v5_35.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 26px;
+  overflow: hidden;
+}
+.v5_37 {
+  width: 341px;
+  height: 433px;
+  background: url("/static/css/images/v5_37.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v5_36 {
+  width: 219px;
+  height: 429px;
+  background: url("/static/css/images/v5_36.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 256px;
+  overflow: hidden;
+}
+.v5_40 {
+  width: 243px;
+  height: 69px;
+  background: url("/static/css/images/v5_40.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 552px;
+  left: 936px;
+  overflow: hidden;
+}
+.v5_14 {
+  width: 243px;
+  height: 67px;
+  background: rgba(21,86,154,1);
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  overflow: hidden;
+}
+.v5_16 {
+  width: 112px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 8px;
+  left: 81px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.v5_18 {
+  width: 115px;
+  color: rgba(245,245,245,1);
+  position: absolute;
+  top: 19px;
+  left: 81px;
+  font-family: Montserrat;
+  font-weight: SemiBold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v5_22 {
+  width: 53px;
+  height: 47px;
+  background: url("/static/css/images/v5_22.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 24px;
+  overflow: hidden;
+}
+.v5_41 {
+  width: 235px;
+  height: 75px;
+  background: url("/static/css/images/v5_41.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 552px;
+  left: 662px;
+  overflow: hidden;
+}
+.v5_13 {
+  width: 235px;
+  height: 67px;
+  background: rgba(21,86,154,1);
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  overflow: hidden;
+}
+.v5_15 {
+  width: 112px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 8px;
+  left: 92px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.v5_17 {
+  width: 92px;
+  color: rgba(245,245,245,1);
+  position: absolute;
+  top: 17px;
+  left: 92px;
+  font-family: Montserrat;
+  font-weight: SemiBold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v5_19 {
+  width: 53px;
+  height: 47px;
+  background: url("/static/css/images/apple.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 24px;
+  overflow: hidden;
+}
+.v5_20 {
+  width: 44px;
+  height: 49px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v5_21 {
+  width: 43px;
+  height: 48px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.v6_178 {
+  width: 55px;
+  height: 35px;
+  background: url("/static/css/images/v6_178.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 51px;
+  left: 98px;
+  overflow: hidden;
+}
+/* Общий стиль футера */
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Стиль контактной информации */
+footer p.contact-info {
+  margin-bottom: 10px;
+}
+
+/* Стиль ссылок на социальные сети */
+footer p.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Стиль ссылок на важные страницы */
+footer p.page-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Стиль подписки */
+footer form {
+  margin-top: 10px;
+}
+
+footer input[type="email"] {
+  padding: 5px;
+  width: 200px;
+}
+
+footer button[type="submit"] {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+footer button[type="submit"]:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+/* Стиль дополнительной информации */
+footer p.additional-info {
+  margin-top: 10px;
+  color: #777;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 3s ease-in-out;
+}
+
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-bottom {
+  animation: slideInFromBottom 3s ease-out;
+}
+
+
+@keyframes fadeInFromLeft {
+  0% {
+    transform: translateX(-100%) scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.fade-in-left {
+  animation: fadeInFromLeft 4s ease-out;
+}
+
+
+@keyframes rotateClockwise {
+  0% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(1turn);
+  }
+  100% {
+    transform: rotate(5turn);
+  }
+}
+
+.rotate-image {
+  animation: rotateClockwise 15s linear infinite;
+}
+
+
+.interactive-link {
+  color: #15569A;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.interactive-link:hover {
+  color: #FF0000; /* Измените цвет на желаемый эффект при наведении */
+  /* Добавьте другие стили или эффекты, которые вы хотите использовать */
+}
