@@ -173,21 +173,45 @@ body {
   left: 14px;
   overflow: hidden;
 }
-
-.v5_37 {
-  width: 470px;
-  height: 433px;
-  background: url("/static/css/images/image.png");
+.v5_35 {
+  width: 225px;
+  height: 415px;
+  background: url("/static/css/images/v5_35.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
   top: 10px;
+  left: 26px;
+  overflow: hidden;
+}
+.v5_37 {
+  width: 341px;
+  height: 433px;
+  background: url("/static/css/images/v5_37.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1px;
   left: 80px;
   overflow: hidden;
 }
-
+.v5_36 {
+  width: 219px;
+  height: 429px;
+  background: url("/static/css/images/v5_36.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 256px;
+  overflow: hidden;
+}
 .v5_40 {
   width: 243px;
   height: 69px;
