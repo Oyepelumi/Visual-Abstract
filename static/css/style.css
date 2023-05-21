@@ -402,6 +402,7 @@
     width: 165px;
     height: 43px;
     background: rgba(235,70,105,1);
+    border-radius: 28px;
     opacity: 1;
     position: absolute;
     top: 0px;
