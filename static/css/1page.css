@@ -182,9 +182,9 @@ body {
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
+  position: absolute;
+  top: 10px;
+  left: 80px;
   overflow: hidden;
 }
 
