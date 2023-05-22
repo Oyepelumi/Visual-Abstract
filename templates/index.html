@@ -90,6 +90,13 @@
     </form>
     <br>
    
+    {% if twitter_post or linkedin_post or instagram_post %}
+    <div>
+        {% if twitter_post %}
+            <h3>Twitter Post:</h3>
+            <p>{{ twitter_post }}</p>
+        {% endif %}
+    </div>
 
     <div>
         {% if linkedin_post %}
@@ -97,20 +104,14 @@
             <p>{{ linkedin_post }}</p>
         {% endif %}
     </div>
-    
+
     <div>
         {% if instagram_post %}
             <h3>Instagram Post:</h3>
             <p>{{ instagram_post }}</p>
         {% endif %}
     </div>
-    
-    <div>
-        {% if twitter_post %}
-            <h3>Twitter Post:</h3>
-            <p>{{ twitter_post }}</p>
-        {% endif %}
-    </div>
+{% endif %}
     <script>
         function selectImage() {
             document.getElementById('fileInput').click();
