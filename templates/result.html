@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Заголовок и стили здесь... -->
+</head>
+
+<body>
+    <h1>Result page</h1>
+    <div>
+        {% if twitter_post %}
+            <h3>Twitter Post:</h3>
+            <p>{{ twitter_post }}</p>
+        {% endif %}
+    </div>
+
+    <div>
+        {% if linkedin_post %}
+            <h3>LinkedIn Post:</h3>
+            <p>{{ linkedin_post }}</p>
+        {% endif %}
+    </div>
+
+    <div>
+        {% if instagram_post %}
+            <h3>Instagram Post:</h3>
+            <p>{{ instagram_post }}</p>
+        {% endif %}
+    </div>
+</body>
+
+</html>

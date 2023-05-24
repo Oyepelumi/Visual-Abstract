@@ -46,6 +46,13 @@
     opacity: 1;
     text-align: left;
   }
+  .form1{
+    display: none;
+  }
+  .form22{
+    display:none;
+    
+  }
   .v4_110 {
     width: 121px;
     height: 43px;
@@ -403,9 +410,7 @@
     height: 43px;
     background: rgba(235,70,105,1);
     opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    
   }
   .v4_181 {
     color: rgba(245,245,245,1);

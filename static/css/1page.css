@@ -198,6 +198,10 @@ body {
   top: 1px;
   left: 80px;
   overflow: hidden;
+  position: absolute;
+  top: 1px;
+  left: 80px;
+  overflow: hidden;
 }
 .v5_36 {
   width: 219px;
@@ -497,4 +501,10 @@ footer p.additional-info {
 .interactive-link:hover {
   color: #FF0000; /* Измените цвет на желаемый эффект при наведении */
   /* Добавьте другие стили или эффекты, которые вы хотите использовать */
+}
+
+.main_block{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 124px;
 }
