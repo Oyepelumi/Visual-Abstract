@@ -19,16 +19,22 @@
 
         <div class="{{ form1_class }}">
             <div class="v6_180">
-                <div class="v6_168"></div>
+                <div class="v6_168"><span class="v4_148a"><textarea id="additional_info" name="additional_info"
+                    rows="20" cols="63" placeholder="Additional info"></textarea> </span></div>
                 <div class="v6_101"></div>
-                <div class="v6_165"></div>
-                <div class="v6_166"></div>
-                <div class="v6_167"></div><span class="v4_148"><textarea id="research_text" name="research_text"
+                <div class="v6_165"><span class="v4_148a"><textarea id="add_journal_name" name="add_journal_name"
+                    rows="20" cols="63" placeholder="Add Journal Name"></textarea> </span></div>
+                <div class="v6_166"><span class="v4_148a"><textarea id="add_authors" name="add_authors"
+                    rows="20" cols="63" placeholder="Add Authors"></textarea> </span></div>
+                <div class="v6_167"><span class="v4_148a"><textarea id="add_link" name="add_link"
+                    rows="20" cols="63" placeholder="Add link"></textarea> </span></div>
+                    
+                    <span class="v4_148"><textarea id="research_text" name="research_text"
                         rows="20" cols="63" placeholder="Add your research"></textarea> </span>
 
-                <span class="v4_149">Add link*
-                </span><span class="v6_104">Add Authors*</span><span class="v6_106">Add Journal Name*</span><span
-                    class="v4_151">Additional info</span>
+                <span class="v4_149">
+                </span><span class="v6_104"></span><span class="v6_106"></span><span
+                    class="v4_151"></span>
                 <input type="file" id="fileInput" style="display: none;">
                 <div class="v4_128" onclick="selectImage()"></div>
 
@@ -49,7 +55,29 @@
     <br>
 
     <div id="form2" class="form22" style="display: {{ display_property }}">
+        <div class="image">
+                
+        </div>
         <div class="main_block">
+            
+
+            <div class="additional_block">
+                <div>
+                    <h3>Authors</h3>
+                    <p>{{ add_authors }}</p>
+                </div>
+
+                <div>
+                    <h3>Journal Name</h3>
+                    <p>{{ add_journal_name }}</p>
+                </div>
+
+                <div>
+                    <h3>link</h3>
+                    <p><a href="{{ add_link }}">{{ add_link }}</a></p>
+                </div>
+                
+            </div>
             <div>
 
                 <h3>Twitter Post:</h3>
@@ -83,6 +111,23 @@
             researchText = researchText.replace(/\n/g, " "); // Удаляем переносы строк
             document.getElementById("research_text").value = researchText;
             
+
+            var additional_Info = document.getElementById("additional_info").value;
+            additional_Info = additional_Info.replace(/\n/g, " "); // Удаляем переносы строк
+            document.getElementById("additional_info").value = additional_Info;
+
+            var Add_journal_name = document.getElementById("add_journal_name").value;
+            Add_journal_name = Add_journal_name.replace(/\n/g, " "); // Удаляем переносы строк
+            document.getElementById("add_journal_name").value = Add_journal_name;
+
+            var add_Authors = document.getElementById("add_authors").value;
+            Add_authors = Add_authors.replace(/\n/g, " "); // Удаляем переносы строк
+            document.getElementById("add_authors").value = Add_authors;
+
+            var Add_link = document.getElementById("add_link").value;
+            Add_link = Add_link.replace(/\n/g, " "); // Удаляем переносы строк
+            document.getElementById("add_link").value = Add_link;         
+        
 
 
 

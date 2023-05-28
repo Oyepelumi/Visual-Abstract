@@ -28,8 +28,12 @@
   }
   textarea:focus {
     outline: none;
+    
 }
 
+textarea{
+  padding-left: 22px;
+}
 .v4_180:hover {
   background-color: #ad5a5a;
   color: #333;
@@ -265,6 +269,19 @@
     text-align: left;
   }
 
+  .v4_148a {
+    width: 177px;
+    color: rgba(17,44,53,1);
+    
+    top: 35px;
+    left: 483px;
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+
   button{
     border: none;
     width: 100%;
@@ -405,6 +422,21 @@
     left: 852px;
     overflow: hidden;
   }
+
+  .image{
+    width: 327px;
+    height: 291px;
+    background: url("./images/download.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 196px;
+    left: 158px;
+    overflow: hidden;
+
+  }
   .v4_180 {
     width: 165px;
     height: 43px;
@@ -423,5 +455,17 @@
   }
   .name {
     color: #fff;
+  }
+
+  .additional_block{
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* width: 366px; */
+    align-content: space-between;
+  }
+
+  .additional_block>div{
+    padding-left: 15px;
   }
   
